@@ -35,6 +35,13 @@ html, body {
     }
 }
 
+@media (width: 2048px) and (height: 1536px){
+    body {
+        width: 130%;
+    }
+}
+
+
 @media screen and (max-width:900px) {
     body {
         background: url('../img/mob_img.jpeg');
