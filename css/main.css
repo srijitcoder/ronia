@@ -19,12 +19,14 @@ html, body {
 @media (width: 980px) and (height: 661px){
     body {
         width: 120%;
+        overflow-x: scroll;
     }
 }
 
 @media (width: 1024px) and (height: 690px){
     body {
         width: 118%;
+        overflow-x: scroll;
     }
 }
 
@@ -32,12 +34,14 @@ html, body {
 @media (width: 980px) and (height: 1024px){
     body {
         width: 180%;
+        overflow-x: scroll;
     }
 }
 
 @media (width: 2048px) and (height: 1536px){
     body {
         width: 130%;
+        overflow-x: scroll;
     }
 }
 
