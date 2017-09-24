@@ -16,35 +16,12 @@ html, body {
     height: 100%;
 }
 
-@media (width: 980px) and (height: 661px){
-    body {
-        width: 120%;
-        overflow-x: scroll;
-    }
-}
-
-@media (width: 1024px) and (height: 690px){
-    body {
-        width: 118%;
-        overflow-x: scroll;
-    }
-}
-
-
-@media (width: 980px) and (height: 1024px){
-    body {
-        width: 180%;
-        overflow-x: scroll;
-    }
-}
-
-@media (width: 2048px) and (height: 1536px){
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
     body {
         width: 130%;
         overflow-x: scroll;
     }
 }
-
 
 @media screen and (max-width:900px) {
     body {
@@ -53,3 +30,4 @@ html, body {
         background-position: 50% 100%;
     }
 }
+
