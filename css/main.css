@@ -16,6 +16,25 @@ html, body {
     height: 100%;
 }
 
+@media (width: 980px) and (height: 661px){
+    body {
+        width: 120%;
+    }
+}
+
+@media (width: 1024px) and (height: 690px){
+    body {
+        width: 118%;
+    }
+}
+
+
+@media (width: 980px) and (height: 1024px){
+    body {
+        width: 180%;
+    }
+}
+
 @media screen and (max-width:900px) {
     body {
         background: url('../img/mob_img.jpeg');
